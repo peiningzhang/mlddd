@@ -14,6 +14,7 @@ Website for Machine Learning in Drug Discovery & Development at the University o
 
 - [Original MLDDD site](https://mlddd-ct.github.io/)
 - [UConn lab directory and portrait source](https://healthinfo.lab.uconn.edu/members/)
+- Collaborator portraits come from [UConn Biomedical Engineering](https://www.bme.uconn.edu/faculty-staff/core-faculty-old/song-minghu/), [University of Minnesota](https://cse.umn.edu/dsi/caiwen-ding), and [Dana-Farber's Buhrlage Lab](https://labs.dana-farber.org/buhrlagelab/people/lab-members).
 - [Jinbo Bi’s faculty site](https://jinbo-bi.uconn.edu/)
 - Site structure references include the [Coley Research Group](https://coley.mit.edu/), [Shoichet Lab](https://bkslab.org/overview), and [Keiser Lab](https://keiserlab.org/).
 
