@@ -6,7 +6,7 @@ Website for Machine Learning in Drug Discovery & Development at the University o
 
 ## Maintenance
 
-- Edit research descriptions, publications, member profiles, collaborators, and alumni in `index.html`. Publication rows use a unique `id` and a `data-topic` of `generation`, `representation`, or `search`. Keep collaborator work linked to the joint publication. List alumni by surname and use institutional profiles for appointments when available.
+- Edit research descriptions, publications, member profiles, collaborators, and alumni in `index.html`. Publication rows use a unique `id` and a `data-topic` of `generation`, `representation`, or `search`. Keep collaborator work linked to the joint publication. List Ph.D. and postdoctoral alumni first. Within each group, sort by graduation or fellowship end year, newest first, and put undated entries last. Use institutional profiles for appointments when available.
 - Styles and publication filtering live in `assets/site.css` and `assets/site.js`.
 - Open `index.html` for a local preview. GitHub Pages serves the root of `main` with `.nojekyll`.
 
