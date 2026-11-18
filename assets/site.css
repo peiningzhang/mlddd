@@ -121,13 +121,23 @@ h1, h2 { font-family: var(--serif); font-weight: 400; }
 .faculty > div { padding: 1.5rem clamp(1.5rem, 4vw, 3rem); }
 .faculty h3 { font: 400 clamp(2.55rem, 4.5vw, 3.65rem)/1 var(--serif); margin-block: .36rem .6rem; }
 .faculty p:not(.overline) { max-width: 40rem; color: var(--slate); margin-bottom: .75rem; }
-.people-subheading { font-size: 1.16rem; margin-block: 1.75rem .65rem; }
+.people-nav { display: flex; flex-wrap: wrap; gap: .45rem 1.35rem; font-size: .91rem; font-weight: 700; }
+.people-nav a, .people-grid h4 a { text-decoration-color: #c9aa97; text-underline-offset: .2em; }
+.people-nav a:hover, .people-grid h4 a:hover { color: var(--rust); }
+.people-subsection { margin-top: 2rem; }
+.people-subsection + .people-subsection { margin-top: 2.75rem; padding-top: 1.65rem; border-top: 1px solid var(--rule); }
+.people-subsection h3 { font-size: 1.35rem; letter-spacing: -.02em; margin-bottom: .75rem; }
+.people-subsection-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: .4rem 1.25rem; margin-bottom: .75rem; }
+.people-subsection-heading h3 { margin-bottom: 0; }
 .people-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .85rem; }
-.person { display: grid; grid-template-columns: 4.8rem 1fr; align-items: start; gap: .8rem; padding: 1rem; border-radius: .4rem; border: 1px solid var(--rule); background: var(--white); }
+.person, .collaborator { padding: 1rem; border-radius: .4rem; border: 1px solid var(--rule); background: var(--white); }
+.person { display: grid; grid-template-columns: 4.8rem minmax(0, 1fr); align-items: start; gap: .8rem; }
 .person img { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; object-position: center 35%; border-radius: .3rem; background: #e7e3dc; }
-.person h4 { font-size: 1rem; line-height: 1.22; }
-.person p { margin-top: .24rem; font-size: .8rem; line-height: 1.45; color: var(--slate); }
-.person .role { color: var(--rust); font-weight: 650; }
+.people-grid h4 { font-size: 1rem; line-height: 1.22; }
+.people-grid p { margin-top: .24rem; font-size: .8rem; line-height: 1.45; color: var(--slate); }
+.people-grid .role { color: var(--rust); font-weight: 650; }
+.collaborator .joint-work { display: flex; flex-wrap: wrap; gap: .35rem .8rem; margin-top: .75rem; }
+.joint-work a { color: var(--rust); text-underline-offset: .2em; font-weight: 650; }
 
 .site-footer { background: var(--navy); color: var(--white); }
 .footer-content { display: flex; justify-content: space-between; align-items: end; gap: 1.6rem 3rem; padding-block: clamp(3rem, 6vw, 5rem); }

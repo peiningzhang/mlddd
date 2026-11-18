@@ -166,7 +166,11 @@
     <section class="section wrap" id="people" aria-labelledby="people-title">
       <div class="section-heading">
         <h2 id="people-title">People</h2>
-        <a class="text-link" href="https://healthinfo.lab.uconn.edu/members/">UConn directory &amp; alumni <span aria-hidden="true">↗</span></a>
+        <nav class="people-nav" aria-label="People sections">
+          <a href="#members">Current members</a>
+          <a href="#collaborators">Collaborators</a>
+          <a href="#alumni">Alumni</a>
+        </nav>
       </div>
       <article class="faculty">
         <img src="assets/people/jinbo-bi.jpg" width="227" height="300" loading="lazy" alt="">
@@ -177,33 +181,108 @@
           <a class="text-link" href="https://jinbo-bi.uconn.edu/">Faculty website <span aria-hidden="true">↗</span></a>
         </div>
       </article>
-      <h3 class="people-subheading">Current members</h3>
-      <div class="people-grid">
-        <article class="person">
-          <img src="assets/people/xinyu-wang.jpg" width="120" height="120" loading="lazy" alt="">
-          <div><h4>Xinyu Wang</h4><p class="role">Ph.D. student</p><p>Drug discovery, generative AI, and reinforcement learning</p></div>
-        </article>
-        <article class="person">
-          <img src="assets/people/blake-gaines.jpg" width="120" height="120" loading="lazy" alt="">
-          <div><h4>Blake Gaines</h4><p class="role">Ph.D. student</p><p>Graph neural networks, foundations of deep learning, and explainable AI</p></div>
-        </article>
-        <article class="person">
-          <img src="assets/people/faith-wariri.jpg" width="120" height="120" loading="lazy" alt="">
-          <div><h4>Faith Wariri</h4><p class="role">Ph.D. student</p><p>Machine learning, health informatics, and explainable AI</p></div>
-        </article>
-        <article class="person">
-          <img src="assets/people/daniel-baker.jpg" width="120" height="120" loading="lazy" alt="">
-          <div><h4>Daniel Baker</h4><p class="role">M.S. student</p><p>Explainable AI, vision-language models, and autonomous driving</p></div>
-        </article>
-        <article class="person">
-          <img src="assets/people/peining-zhang.jpg" width="120" height="120" loading="lazy" alt="">
-          <div><h4>Peining Zhang</h4><p class="role">Ph.D. student</p><p>Diffusion models, 3D molecular generation, and drug design</p></div>
-        </article>
-        <article class="person">
-          <img src="assets/people/haochen-zhang.jpg" width="120" height="120" loading="lazy" alt="">
-          <div><h4>Haochen Zhang</h4><p class="role">Ph.D. student</p><p>Foundation models, spatiotemporal modeling, and Earth science</p></div>
-        </article>
-      </div>
+      <section class="people-subsection" id="members" aria-labelledby="members-title">
+        <h3 id="members-title">Current members</h3>
+        <div class="people-grid">
+          <article class="person">
+            <img src="assets/people/xinyu-wang.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4>Xinyu Wang</h4><p class="role">Ph.D. student</p><p>Drug discovery, generative AI, and reinforcement learning</p></div>
+          </article>
+          <article class="person">
+            <img src="assets/people/blake-gaines.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4>Blake Gaines</h4><p class="role">Ph.D. student</p><p>Graph neural networks, foundations of deep learning, and explainable AI</p></div>
+          </article>
+          <article class="person">
+            <img src="assets/people/faith-wariri.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4>Faith Wariri</h4><p class="role">Ph.D. student</p><p>Machine learning, health informatics, and explainable AI</p></div>
+          </article>
+          <article class="person">
+            <img src="assets/people/daniel-baker.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4>Daniel Baker</h4><p class="role">M.S. student</p><p>Explainable AI, vision-language models, and autonomous driving</p></div>
+          </article>
+          <article class="person">
+            <img src="assets/people/peining-zhang.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4>Peining Zhang</h4><p class="role">Ph.D. student</p><p>Diffusion models, 3D molecular generation, and drug design</p></div>
+          </article>
+          <article class="person">
+            <img src="assets/people/haochen-zhang.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4>Haochen Zhang</h4><p class="role">Ph.D. student</p><p>Foundation models, spatiotemporal modeling, and Earth science</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="people-subsection" id="collaborators" aria-labelledby="collaborators-title">
+        <h3 id="collaborators-title">Research collaborators</h3>
+        <div class="people-grid">
+          <article class="collaborator">
+            <h4><a href="https://www.bme.uconn.edu/faculty-staff/core-faculty-old/song-minghu/">Minghu Song</a></h4>
+            <p class="role">Associate Research Professor</p>
+            <p>Biomedical Engineering, University of Connecticut</p>
+            <p class="joint-work"><a href="https://doi.org/10.1609/aaai.v40i33.40063">VEDA</a><a href="https://doi.org/10.1016/j.jmgm.2021.107865">OctSurf</a></p>
+          </article>
+          <article class="collaborator">
+            <h4><a href="https://cse.umn.edu/dsi/caiwen-ding">Caiwen Ding</a></h4>
+            <p class="role">Associate Professor</p>
+            <p>Computer Science &amp; Engineering, University of Minnesota</p>
+            <p class="joint-work"><a href="https://arxiv.org/abs/2109.06355">FPGA acceleration for molecular search</a></p>
+          </article>
+          <article class="collaborator">
+            <h4><a href="https://labs.dana-farber.org/buhrlagelab/people/lab-members">Xuetao Shi</a></h4>
+            <p class="role">Data Engineer</p>
+            <p>Buhrlage Lab, Dana-Farber Cancer Institute</p>
+            <p class="joint-work"><a href="https://doi.org/10.1002/minf.202200215">Fragment-based molecular generation</a></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="people-subsection" id="alumni" aria-labelledby="alumni-title">
+        <div class="people-subsection-heading">
+          <h3 id="alumni-title">Selected alumni</h3>
+          <a class="text-link" href="https://healthinfo.lab.uconn.edu/members/">Full UConn alumni directory <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="people-grid">
+          <article class="person">
+            <img src="assets/people/fei-dou.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4><a href="https://computing.uga.edu/directory/people/fei-dou">Fei Dou</a></h4><p class="role">Assistant Professor, University of Georgia</p><p>Ph.D. ’23</p></div>
+          </article>
+          <article class="person">
+            <img src="assets/people/qianqian-tong.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4><a href="https://www.uncg.edu/employees/qianqian-tong/">Qianqian Tong</a></h4><p class="role">Assistant Professor, UNC Greensboro</p><p>Ph.D. ’22</p></div>
+          </article>
+          <article class="person">
+            <img src="assets/people/zhenxiang-gao.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4><a href="https://case.edu/medicine/aicenter/zhenxiang-gao">Zhenxiang Gao</a></h4><p class="role">Research Assistant Professor, Case Western Reserve University</p><p>Postdoctoral fellow, through 2021</p></div>
+          </article>
+          <article class="person">
+            <img src="assets/people/jin-lu.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4><a href="https://computing.uga.edu/directory/people/jin-lu">Jin Lu</a></h4><p class="role">Assistant Professor, University of Georgia</p><p>Ph.D. ’19</p></div>
+          </article>
+          <article class="person">
+            <img src="assets/people/chunjiang-zhu.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4><a href="https://faculty.pages.cs.odu.edu/chunjiang-zhu/">Chunjiang Zhu</a></h4><p class="role">Assistant Professor, Old Dominion University</p><p>Postdoctoral fellow, through 2019</p></div>
+          </article>
+          <article class="person">
+            <img src="assets/people/jiangwen-sun.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4><a href="https://www.odu.edu/directory/jiangwen-sun">Jiangwen (Javon) Sun</a></h4><p class="role">Associate Professor, Old Dominion University</p><p>Ph.D. ’15 and postdoctoral fellow</p></div>
+          </article>
+          <article class="person">
+            <img src="assets/people/guoqing-chao.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4><a href="https://homepage.hit.edu.cn/chaoguoqing?lang=zh">Guoqing Chao</a></h4><p class="role">Researcher, Harbin Institute of Technology, Weihai</p><p>Postdoctoral fellow, 2015–2017</p></div>
+          </article>
+          <article class="person">
+            <img src="assets/people/tan-zhu.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4>Tan Zhu</h4><p class="role">Senior Scientist, Walmart Global Tech</p><p>Ph.D. ’24</p></div>
+          </article>
+          <article class="person">
+            <img src="assets/people/qinqing-liu.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4>Qinqing Liu</h4><p class="role">Senior Scientist, Walmart Global Tech</p><p>Ph.D. ’23</p></div>
+          </article>
+          <article class="person">
+            <img src="assets/people/chao-shang.jpg" width="120" height="120" loading="lazy" alt="">
+            <div><h4><a href="https://chaoshangcs.github.io/">Chao Shang</a></h4><p class="role">Senior Applied Scientist, Amazon AWS AI</p><p>Ph.D. ’20</p></div>
+          </article>
+        </div>
+      </section>
     </section>
   </main>
 
